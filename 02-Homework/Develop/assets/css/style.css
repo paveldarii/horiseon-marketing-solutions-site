@@ -1,62 +1,70 @@
+/* asterix is used as an universal selector, 
+so in this case it is used to give some of our default values to the elements instead of values given by the html initially*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* in the body selector is used background-color property with a color value #d9dcd6 which will stay behind all elements in the site*/
 body {
     background-color: #d9dcd6;
 }
-
+/* header selector, which includes the title and navigation bar, includes four declarations. To padding property is given 20px, so it will give 
+a space of 20 pixels around header content. Font-family holds several fonts wich gives a specific signature to the header text. Color property has 
+direct impact on the collor of the text.  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*header h1 selector is used to select specifically h1 element in header element. "Display: inline-block;" does not add a line-break after the element, so
+we can add other elements next to it as navigation bar. Font-size is used to give the size for the heading */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*.seo is a class inside span element which is inside h1 element. The purpose here is to make the title look more original adding a second color in it */
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header section {
+/*padding and margin to all elements are setted up to 0, but we add to navigation links 15px padding on the top, and a 20px margin to the right; also,
+ the navigation bar with the elements inside it is floating to the right*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header section ul {
+/*this block of code deletes any style given to unordered list by default */
+header nav ul {
     list-style-type: none;
 }
-
-header section ul li {
+/*For each element of the unordered list, "display: inline-block;" declaration is giving the property of letting other elements sit next to the current element 
+with a distance of 25px from border to border of each list element*/
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*a selector refers to all <a> hyperlink elements, so it gives a #ffffff color to them, and no text decorations like underline or line-throught is given, but it is 
+seted up to none. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*all paragraphs will get a text size of 16px */
 p {
     font-size: 16px;
 }
-
-.hero {
+/*hero class selector is used to give attributes for the main photo */
+ .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
+    background-position:center;
+
 }
 
 .float-left {
