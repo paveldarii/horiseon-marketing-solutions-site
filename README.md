@@ -1,6 +1,7 @@
 # horiseon-marketing-solutions-site
 
-#horiseon-site-description
+Horiseon site description
+
 Horiseon is a marketing company that help different businesses to promote their products or services through modern technologies.
 
 First modern technology used by Horiseon is "Search Engine Optimisation" which allows businesses to increase their visibility and 
