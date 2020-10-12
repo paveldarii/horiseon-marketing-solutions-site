@@ -15,7 +15,8 @@ is to help potential Horiseon customers go easily back and forward to the topics
 in the office when marketing specialist are working on a business promotion. 
 
 Bellow the main photo are three sections with articles that describes what Horiseon company does, and in the section on the right side are enumerated 
-the benefits of being a Horiseon customer. Moreover, on the bottom is the footer with copyright symbol.
+the benefits of being a Horiseon customer. Lastly, on the bottom is the footer with copyright symbol expressing that the site is an intelectual property
+of Horiseon company.
 
 
 
