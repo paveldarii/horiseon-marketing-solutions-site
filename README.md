@@ -16,7 +16,10 @@ All three technologies described above are placed together with the company name
    The purpose of the project was to optimize Horiseon site for search engines. This optimisation is making the code more readable, so it will be easier 
 to maintain in the future. Also, code optimization will be useful for people who are blind, visually impaired, or having a learning disability because 
 by using proper HTML semantic tags, screen readers can correctly function for those people in need.In addition, all large size materials links like photos 
-are moved from CSS to HTML because it will keep CSS file light and easy to access on any low Internet connectivity. 	
+are moved from CSS to HTML because it will keep CSS file light and easy to access on any low Internet connectivity. 
+
+## SSH Clone link
+	git@github.com:paveldarii/marketing-site-refactor.git
 
 ## Contributors
    * Pavel Darii ( paveldarii@yahoo.com )
