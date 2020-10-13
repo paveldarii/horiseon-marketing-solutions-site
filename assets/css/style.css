@@ -13,7 +13,6 @@ body {
 a space of 20 pixels around header content. Font-family holds several fonts wich gives a specific signature to the header text. Color property has 
 direct impact on the collor of the text.  */
 header {
-    position: fixed;
     width:100%;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
