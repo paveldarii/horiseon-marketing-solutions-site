@@ -32,7 +32,7 @@ header h1 .seo {
 }
 /*padding and margin to all elements are setted up to 0, but we add to navigation links 15px padding on the top, and a 20px margin to the right; also,
  the navigation bar with the elements inside it is floating to the right*/
-header nav {
+header nav {s
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -59,33 +59,32 @@ a {
 p {
     font-size: 16px;
 }
-/*hero class selector is used to give attributes for the main photo */
+/*hero class selector is used to give attributes like hight and width for the main photo, height will be always 800 px, but
+width will change in dependence of the size of the screen, margin-bottom is making a little distance between main photo and rest of the site content */
  .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-size:cover;
-    background-position:center;
-
 }
-
+/* float left refers to three sections that are floating the left side of the page*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* float right refers to aside section that is floating on the right side of the page*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* content class is refering to the three articles and this block will have a 75% of the left size scree with a left margin of 20 px, is used for display
+in-line block to be able to add asside content from the right side of the page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-
+/*right section caracteristics */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -97,36 +96,42 @@ p {
     background-color: #2589bd;
 }
 
+/* right side section caracteristics*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* right side section caracteristics*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* right side section caracteristics*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*  right side section caracteristics of the heading with the text align in the center*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* right side section caracteristics of the heading*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*right side section caracteristics of the heading*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*in those 20% width of aside section, icons with the help of display: bolck; declaration takes all the width of that section*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -171,7 +176,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* bellow are image properties*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -198,7 +203,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*clear property is used to not allow floating elements on either left or the right side*/
 footer {
     padding: 30px;
     clear: both;
@@ -206,6 +211,7 @@ footer {
     text-align: center;
 }
 
+/*heading property of the bottom size of the site*/
 footer h2 {
     font-size: 20px;
 }
