@@ -131,19 +131,8 @@ in-line block to be able to add asside content from the right side of the page*/
     text-align: center;
 }
 /*in those 20% width of aside section, icons with the help of display: bolck; declaration takes all the width of that section*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-cost img, .benefit-brand img, .benefit-lead img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
